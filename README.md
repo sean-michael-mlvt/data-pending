@@ -1,3 +1,11 @@
+# data-pending
+React frontend to view aggregate data from Athens' own weekly fighting game tournament, Name Pending. 
+
+# Figma
+The layout was initially designed in Figma, featuring reusable components and layouts for both desktop and mobile screen widths. 
+### File
+🔗 - https://www.figma.com/design/Z6kooS4IQ4PuV4ASPZckP1/Data-Pending?node-id=0-1&t=RIJHQf3CIGR3wz5X-1
+
 ### React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
