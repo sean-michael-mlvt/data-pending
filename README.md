@@ -1,5 +1,5 @@
-# data-pending
-React frontend to view aggregate data from Athens' own weekly fighting game tournament, Name Pending. 
+# Project Description
+This project a React frontend to view aggregate data from Athens' own weekly fighting game tournament, Name Pending.
 
 # Figma
 The layout was initially designed in Figma, featuring reusable components and layouts for both desktop and mobile screen widths. 
