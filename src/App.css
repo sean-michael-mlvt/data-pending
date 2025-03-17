@@ -1,0 +1,31 @@
+html, body {
+  background: var(--page-gradient);
+  background-color: black;
+  min-height: 100vh;
+  color: var(--text-color)
+}
+
+
+#athensLogo {
+  object-fit: fill;
+  min-width: 150px;
+  max-width: 200px;
+  width: 100%;
+  border-radius: 50%;
+  border: 10px solid white;
+  box-shadow: 0px 0px 10px white;
+  justify-self: center;
+}
+
+.logoHolder {
+  display: flex;
+  justify-content: center;
+}
+
+
+@media (max-width: 991px) {
+  .social-icon {
+      height: 36px;
+      width: 36px;
+  }
+}

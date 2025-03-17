@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+nav {
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+
+.logo {
+    margin: 1rem 3rem
+}
+
+.logo > img {
+    height: 55px;
+}
+
+.navLink {
+    font-family: 'Play', system-ui, sans-serif;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: fit-content;
+    color: rgb(217, 217, 217);
+}
+.toggler span{
+ 
+    border-color: white;
+    background-image: url("../assets/img/hamburger-menu.svg") !important;
+
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        margin: 1rem 1rem
+    }
+    nav > button {
+        margin: 1rem 1rem
+    }
+    .logo > img {
+        height: 40px;
+    }
+}

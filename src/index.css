@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Geist:wght@100..900&family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Geist:wght@100..900&family=Oswald:wght@200..700&family=Play:wght@400;700&display=swap');
+
+html {
+  --page-gradient: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(40,7,7,1) 100%);
+  /* --button-primary-gradient: linear-gradient(135deg, rgba(130,0,0,1) 0%, rgba(28,0,0,1) 100%);
+  --button-secondary-gradient: linear-gradient(135deg, rgba(204,0,0,1) 0%, rgba(130,0,0,1) 100%); */
+  --uga-red: #BA0C2F;
+  --glory-glory: #E4002B;
+
+  --text-color: #ffffff;
+}
+
+.body-fonts {
+  font-family: 'Play', Georgia, sans-serif;
+}
+
+.oswald-font {
+  font-family: 'Oswald', Helvetica, sans-serif;
+}
