@@ -40,6 +40,7 @@ function App() {
         <Col lg>
           <span className='d-flex align-items-center justify-content-between'>
             <h1 className='d-inline-block mb-0 oswald-font'>ATHENS SMASH</h1>
+            {/* Socials Holder */}
             <span>
               <a href="https://discord.gg/yBQyMa6Y5h" className='p-1' target="_blank">
                 <img src={discordSVG} className="social-icon" alt="Social Media Icon"/>
