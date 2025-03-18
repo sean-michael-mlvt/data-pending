@@ -1,12 +1,13 @@
-function IconTextButton({icon, label}) {
+import {Link} from "react-router-dom";
+import styles from './IconTextButton.module.css'
 
-
+function IconTextButton({to, icon, label}) {
 
     return (
-        <button className="bg-dark text-light">
-            <img src={`/${icon}.svg`} alt={label} />
+        <Link to={to} className={styles.linkButton + " p-3 gap-3 body-fonts"}>
+            <img src={`/${icon}.svg`} alt={label} className={styles.buttonIcon}/>
             {label}
-        </button>
+        </Link>
     );
 
 }

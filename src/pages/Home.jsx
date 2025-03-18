@@ -8,7 +8,6 @@ import athensSmashLogo from '../assets/img/athensSmashLogo.png'
 import discordSVG from '../assets/img/icons8-discord.svg'
 import xSVG from '../assets/img/icons8-x.svg'
 
-import '../index.css'
 import './Home.css'
 
 function Home() {
@@ -22,7 +21,7 @@ function Home() {
     <Container fluid="xxl">
 
       {/* Hero Section */}
-      <Row className='p-1 p-lg-5'>
+      <Row className='p-2 p-lg-5'>
 
         {/* Athens Smash Logo */}
         <Col lg="auto">
@@ -50,12 +49,32 @@ function Home() {
             </span>
           </span>
           <hr style={{ height: "2px", backgroundColor: "#ffffff", opacity: "1"}}/>
-          <p className='fs-5 body-fonts'>Athens Smash, operating under UGA Esports, hosts weekly fighting game tournaments with a focus on Super Smash Bros. Ultimate. As the biggest Smash weekly in Georgia, we are an amazing place to find community and competition in the fighting game scene. Interested in attending a tournament? Join our discord for announcements!</p>
+          <p className='fs-6 fs-lg-5 body-fonts'>Athens Smash, operating under UGA Esports, hosts weekly fighting game tournaments with a focus on Super Smash Bros. Ultimate. As the biggest Smash weekly in Georgia, we are an amazing place to find community and competition in the fighting game scene. Interested in attending a tournament? Join our discord for announcements!</p>
         </Col>
       </Row>
 
-      <IconTextButton icon="NR" label="Name Realized"></IconTextButton>
-      <IconTextButton icon="smash-bros" label="Characters"></IconTextButton>
+      {/* Nav Buttons Section */}
+      <Row className='p-2 p-lg-5'>
+        <Col lg className='nav-col'>
+          <h2 className='d-inline-block mb-0 oswald-font'>DATA & STATISTICS</h2>
+          <hr style={{ height: "2px", backgroundColor: "#ffffff", opacity: "1"}}/>
+          <IconTextButton icon="players" label="Players"></IconTextButton>
+          <IconTextButton icon="smash-bros" label="Characters"></IconTextButton>
+        </Col>
+        <Col lg className='nav-col'>
+          <h2 className='d-inline-block mb-0 oswald-font'>PAST TOURNAMENTS</h2>
+          <hr style={{ height: "2px", backgroundColor: "#ffffff", opacity: "1"}}/>
+          <IconTextButton icon="NP" label="Name Pending"></IconTextButton>
+          <IconTextButton icon="NR" label="Name Realized"></IconTextButton>
+        </Col>
+        <Col lg className='nav-col'>
+          <h2 className='d-inline-block mb-0 oswald-font'>ADMIN ONLY</h2>
+          <hr style={{ height: "2px", backgroundColor: "#ffffff", opacity: "1"}}/>
+          <IconTextButton icon="refresh" label="Update Database"></IconTextButton>
+          <IconTextButton icon="upload" label="Upload Graphic"></IconTextButton>
+        </Col>
+
+      </Row>
 
 
     </Container>
