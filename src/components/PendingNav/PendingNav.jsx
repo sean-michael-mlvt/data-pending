@@ -1,7 +1,7 @@
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import styles from './PendingNav.module.css';
-import dataPendingLogo from './../assets/img/dataPendingLogo.jpg';
+import dataPendingLogo from '../../assets/img/dataPendingLogo.jpg';
 
 function PendingNav () {
     return (

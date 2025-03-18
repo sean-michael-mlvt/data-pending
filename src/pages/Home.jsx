@@ -2,16 +2,16 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import PendingNav from './PendingNav/PendingNav';
-import IconTextButton from './IconTextButton/IconTextButton';
-import athensSmashLogo from './assets/img/athensSmashLogo.png'
-import discordSVG from './assets/img/icons8-discord.svg'
-import xSVG from './assets/img/icons8-x.svg'
+import PendingNav from '../components/PendingNav/PendingNav';
+import IconTextButton from '../components/IconTextButton/IconTextButton';
+import athensSmashLogo from '../assets/img/athensSmashLogo.png'
+import discordSVG from '../assets/img/icons8-discord.svg'
+import xSVG from '../assets/img/icons8-x.svg'
 
-import './index.css';
-import './App.css'
+import '../index.css'
+import './Home.css'
 
-function App() {
+function Home() {
 
   return (
     <>
@@ -64,4 +64,4 @@ function App() {
   )
 }
 
-export default App
+export default Home

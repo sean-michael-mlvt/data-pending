@@ -25,7 +25,7 @@ nav {
 .toggler span{
  
     border-color: white;
-    background-image: url("../assets/img/hamburger-menu.svg") !important;
+    background-image: url("../../assets/img/hamburger-menu.svg") !important;
 
 }
 
