@@ -1,0 +1,21 @@
+.linkButton {
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    border: solid 1px white;
+    border-radius: 12px;
+    background-image: linear-gradient(135deg, rgba(130,0,0,1) 0%, rgba(28,0,0,1) 100%);
+    box-shadow: 1px 1px 5px 0px white;
+}
+
+.linkButton:hover {
+    background-image: linear-gradient(135deg, rgba(204,0,0,1) 0%, rgba(130,0,0,1) 100%);
+    box-shadow: 1px 1px 10px 0px white;
+}
+
+.buttonIcon {
+    height: 36px;
+    width: 36px;
+}

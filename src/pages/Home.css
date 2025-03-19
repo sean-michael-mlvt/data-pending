@@ -22,10 +22,22 @@ html, body {
   justify-content: center;
 }
 
+.nav-col > a {
+  margin-bottom: 1rem;
+}
 
+.nav-col {
+  margin-bottom: 1rem;
+}
 @media (max-width: 991px) {
   .social-icon {
       height: 36px;
       width: 36px;
+  }
+}
+
+@media (min-width: 992px) {
+  .fs-lg-5 {
+    font-size: 1.25rem!important;
   }
 }
