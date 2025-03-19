@@ -10,7 +10,7 @@ nav {
     margin: 1rem 3rem
 }
 
-.logo > img {
+.logo > * > img {
     height: 55px;
 }
 

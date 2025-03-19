@@ -55,21 +55,27 @@ function Home() {
 
       {/* Nav Buttons Section */}
       <Row className='p-2 p-lg-5'>
+
         <Col lg className='nav-col'>
           <h2 className='d-inline-block mb-0 oswald-font'>DATA & STATISTICS</h2>
           <hr style={{ height: "2px", backgroundColor: "#ffffff", opacity: "1"}}/>
-          <IconTextButton icon="players" label="Players"></IconTextButton>
+
+          <IconTextButton icon="players" label="Players" to="/players"></IconTextButton>
           <IconTextButton icon="smash-bros" label="Characters"></IconTextButton>
         </Col>
+
         <Col lg className='nav-col'>
           <h2 className='d-inline-block mb-0 oswald-font'>PAST TOURNAMENTS</h2>
           <hr style={{ height: "2px", backgroundColor: "#ffffff", opacity: "1"}}/>
+
           <IconTextButton icon="NP" label="Name Pending"></IconTextButton>
           <IconTextButton icon="NR" label="Name Realized"></IconTextButton>
         </Col>
+
         <Col lg className='nav-col'>
           <h2 className='d-inline-block mb-0 oswald-font'>ADMIN ONLY</h2>
           <hr style={{ height: "2px", backgroundColor: "#ffffff", opacity: "1"}}/>
+
           <IconTextButton icon="refresh" label="Update Database"></IconTextButton>
           <IconTextButton icon="upload" label="Upload Graphic"></IconTextButton>
         </Col>
