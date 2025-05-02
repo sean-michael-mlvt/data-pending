@@ -6,7 +6,7 @@ import {Link} from "react-router-dom"
 
 function PendingNav () {
     return (
-        <Navbar className="bg-body-dark mb-lg-4" sticky="top" expand="md">
+        <Navbar className="bg-body-dark mb-2 mb-md-3" sticky="top" expand="md">
 
         <Navbar.Brand className={styles.logo}>
         <Link to="/">
