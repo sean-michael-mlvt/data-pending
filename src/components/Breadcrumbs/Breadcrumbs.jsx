@@ -2,6 +2,13 @@ import React from 'react';
 import {Link} from "react-router-dom";
 import styles from './Breadcrumbs.module.css'
 
+
+/**
+ * This component can be imported at the top of any page and given props to provide a breadcrumb navigation list
+ * 
+ * @param {*} crumbs An array of objects with name and path values to be used to create router links 
+ * @returns A breadcrumbs navigation list starting with the home page followed by the provided crumbs
+ */
 function Breadcrumbs({crumbs}) {
     
     let paths = crumbs.map((page, index) => {
